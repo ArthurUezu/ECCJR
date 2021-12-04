@@ -46,3 +46,5 @@ submit.addEventListener("click",function(event){
     }
     event.preventDefault();
 });
+VMasker(document.getElementById("telefone")).maskPattern('(99) 9999-9999');
+VMasker(document.getElementById("cep")).maskPattern('99.999-999');
