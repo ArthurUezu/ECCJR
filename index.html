@@ -27,12 +27,13 @@
             <h1 class="main-title">Tudo o que você precisa pra ficar fortão!</h1>
             <div class="main-form">
                 <h3>Comece agora!</h3>
-                <form action="">
-                    <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Telefone">
-                    <input type="text" placeholder="CEP">
-                    <button type="submit">Inscrever-se</button> 
+                
+                <form id="form">
+                    <input type="text" value="" name="nome" required="True" id="name" placeholder="Nome">
+                    <input type="text" value="" name="email" required="True" id="email"placeholder="Email">
+                    <input type="text" value="" name="telefone" required="True" id="telefone" placeholder="Telefone">
+                    <input type="text" value="" name="CEP" required="True" id="cep"placeholder="CEP">
+                    <button id="submit">Inscrever-se</button> 
                 </form>
             </div>
             
@@ -115,5 +116,6 @@
             <p>Copyright 2020 - Todos os direitos reservados Bombados S.A.</p>
         </footer>
         <script src="https://kit.fontawesome.com/51f7ea6787.js" crossorigin="anonymous"></script>
+        <script src="js/form-validation.js"></script>
     </body>
 </html>
